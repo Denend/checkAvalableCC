@@ -18,7 +18,7 @@ headers = {
 }
 
 open(f"result.txt", "w").close()
-result = open(f"result_{headers['authorization'][:-10]}.txt", "a")
+result = open(f"result.txt", "a")
 
 def get_past_events(after: int = None):
 
