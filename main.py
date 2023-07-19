@@ -72,8 +72,7 @@ while True:
     past_events += data['list']
     after = data['pageInfo']['endCursor']
 
-    if x == 10:
-        break
+
 try:
     for event in past_events:
 
